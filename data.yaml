@@ -1,0 +1,7 @@
+path: ../datasets/fire
+train: train/images
+val: val/images
+
+nc: 1
+names: ['Fire']
+
