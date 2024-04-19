@@ -59,7 +59,7 @@ To make predictions using the trained YOLOv8 model, follow these steps:
 1. Load the YOLOv8 model with the trained weights:
    ```
    from ultralytics import YOLO
-   model = YOLO("yolov8n_custom_fire_2/weights/best.pt")
+   model = YOLO("weights/best.pt")
    ```
 
 2. Start capturing video from the webcam using OpenCV:
